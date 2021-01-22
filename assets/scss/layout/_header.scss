@@ -1,0 +1,79 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 43px 40px;
+  .logo {
+    display: flex;
+    .hamburger {
+      height: 10px;
+      margin-top: 15px;
+    }
+    .logoicon {
+      margin-left: 34px;
+    }
+  }
+  .nav-items {
+    ul {
+      display: flex;
+      margin-top: 16px;
+      li {
+        a {
+          text-decoration: none;
+          color: #000;
+          font-size: 16px;
+          padding: 20px;
+          font-family: Basier-Circle;
+        }
+      }
+    }
+  }
+}
+
+//header body
+.header-body {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  .header-body-left {
+    h6 {
+      font-size: 16.8px;
+      color: #283742;
+      margin-top: 130px;
+    }
+    h1 {
+      font-size: 72px;
+      color: #283742;
+      font-family: SpaceGrotesk;
+      margin-top: 40px;
+      line-height: 82px;
+    }
+    p {
+      font-size: 18px;
+      margin: 40px 0;
+      line-height: 30px;
+    }
+    .email-input {
+      display: flex;
+      input {
+        background: rgba(17, 17, 17, 0.08);
+        opacity: 0.6;
+        border-radius: 2px;
+        padding: 10px;
+      }
+    }
+    .signin {
+      margin: 15px 0;
+      color: #283742;
+      opacity: 0.75;
+      span {
+        opacity: 1;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+  .header-body-right {
+    img {
+      max-width: 90%;
+    }
+  }
+}

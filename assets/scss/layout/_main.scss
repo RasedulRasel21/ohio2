@@ -1,0 +1,46 @@
+.processes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  margin-top: 100px;
+  .processes-left {
+    padding: 40px;
+    background: #f5f7fd;
+    h3 {
+      font-family: SpaceGrotesk;
+      font-size: 26px;
+      line-height: 32px;
+      color: #283742;
+      margin: 20px 0;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .processes-mid {
+    padding: 40px;
+    h3 {
+      font-family: SpaceGrotesk;
+      font-size: 26px;
+      line-height: 32px;
+      color: #283742;
+      margin: 20px 0;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .processes-right {
+    padding: 40px;
+    h3 {
+      font-family: SpaceGrotesk;
+      font-size: 26px;
+      line-height: 32px;
+      color: #283742;
+      margin: 20px 0;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}

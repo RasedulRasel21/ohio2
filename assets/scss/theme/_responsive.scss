@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1700px) {
+}
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 991px) {
+  .navbar .nav-items ul {
+    display: none;
+  }
+  .main {
+    padding: 0 40px;
+  }
+
+  .footer .footer-top {
+    padding: 5%;
+    grid-template-columns: 450px 450px;
+  }
+  .footer-top-subscription .subscription-input a {
+    height: 47px;
+  }
+  .footer .footer-bottom {
+    padding: 5%;
+    grid-column-gap: 40px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .register a {
+    font-size: 12px;
+  }
+  .btn {
+    height: 34px;
+    width: 86px;
+  }
+  .header-body {
+    grid-template-columns: 1fr;
+  }
+  .header-body .header-body-left h1 {
+    font-size: 40px;
+    margin-top: 16px;
+    line-height: 50px;
+  }
+
+  .header-body .header-body-left h6 {
+    margin-top: 30px;
+  }
+  .header-body .header-body-left p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+  }
+  .header-body .header-body-left .email-input input {
+    max-width: 250px;
+  }
+  .header-body .header-body-left .email-input {
+    display: grid;
+    padding-right: 20px;
+  }
+  .email-input-btn {
+    font-size: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .processes {
+    grid-template-columns: 1fr;
+  }
+
+  .footer .footer-top {
+    padding: 5%;
+  }
+  .footer .footer-bottom {
+    padding: 5%;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+  }
+  .footer .footer-top {
+    padding: 5%;
+  }
+  .footer {
+    height: 100%;
+  }
+  .footer-bottom-right {
+    padding: 5% 0;
+  }
+  .progress-img {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer-top {
+    padding: 5%;
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    height: 100%;
+  }
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar .logo .logoicon {
+    margin-left: 16px;
+  }
+  .navbar .logo .hamburger {
+    margin-bottom: 0;
+    height: 6px;
+  }
+  .footer-top-subscription .subscription-input {
+    display: grid;
+  }
+  .footer-top-subscription .subscription-input input {
+    max-width: 250px;
+  }
+  .footer-top-subscription .subscription-input a {
+    height: 40px;
+    padding: 10px 0 0 24px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+}

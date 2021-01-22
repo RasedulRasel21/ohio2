@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  padding: 0 212px;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+h1 {
+  font-family: Playfair_Display;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 102%;
+  letter-spacing: -0.02em;
+}
+h6,
+p,
+a {
+  font-family: Basier-Circle;
+  letter-spacing: -0.01em;
+}
