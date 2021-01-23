@@ -4,7 +4,7 @@ img {
 }
 
 .btn {
-  background: #6c30e2;
+  background: #003cd3;
   color: #fff;
   padding: 12px 20px;
   font-family: SpaceGrotesk;
@@ -17,7 +17,7 @@ img {
   width: 100px;
 }
 .btn1 {
-  background: #6c30e2;
+  background: #003cd3;
   color: #fff;
   padding: 18px;
   font-family: SpaceGrotesk;
@@ -27,4 +27,23 @@ img {
   border-radius: 4px;
   float: right;
   height: 48px;
+}
+
+.btn-2 {
+  background: #003cd3;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+.btn-2 svg {
+  margin-left: 15px;
+  transition: 0.3s;
+}
+.btn-2:hover svg {
+  margin-left: 25px;
+}
+a {
+  text-decoration: none;
 }

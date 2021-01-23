@@ -44,3 +44,106 @@
     }
   }
 }
+
+//sales-growth
+
+.sales-growth {
+  background: #f5f7fd;
+  margin-top: 100px;
+  .sales-growth-in {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 121px 212px;
+    .sales-growth-left {
+      p {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fc2121;
+        opacity: 0.75;
+      }
+      h1 {
+        font-size: 40px;
+        color: #283742;
+        margin: 15px 0 40px 0;
+        font-family: SpaceGrotesk;
+        line-height: 50px;
+      }
+      h6 {
+        color: #283742;
+        font-size: 16.8px;
+      }
+      .stage-api {
+        font-size: 16px;
+        color: #283742;
+        margin: 22px 0;
+        text-transform: none;
+        span {
+          color: #000;
+          font-weight: bold;
+        }
+      }
+      .sales-btn {
+        margin-top: 42px;
+      }
+    }
+  }
+}
+
+//marketing
+.marketing {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-column-gap: 76px;
+  margin: 90px 0;
+  .marketing-right {
+    margin-top: 70px;
+    p {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fc2121;
+      opacity: 0.75;
+    }
+    h1 {
+      font-size: 40px;
+      color: #283742;
+      margin: 15px 0 40px 0;
+      font-family: SpaceGrotesk;
+      line-height: 50px;
+    }
+    h6 {
+      color: #283742;
+      font-size: 16.8px;
+    }
+    .stage {
+      font-size: 18px;
+      color: #283742;
+      text-transform: none;
+      span {
+        color: #000;
+      }
+    }
+    .estimate-bar {
+      margin-top: 20px;
+      p {
+        color: #000;
+        text-transform: none;
+        font-size: 16.8px;
+      }
+      .estimate-bar-icon {
+        display: flex;
+        margin-top: 10px;
+        .rect-black {
+          max-width: 205px;
+        }
+        .rect-v {
+          max-width: 65px;
+        }
+      }
+    }
+    .estimate-bottom {
+      margin-top: 20px;
+      color: #000;
+      text-transform: none;
+    }
+  }
+}
