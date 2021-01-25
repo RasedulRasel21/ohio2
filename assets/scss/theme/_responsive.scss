@@ -14,9 +14,6 @@
     padding: 5%;
     grid-template-columns: 450px 450px;
   }
-  .footer-top-subscription .subscription-input a {
-    height: 47px;
-  }
   .footer .footer-bottom {
     padding: 5%;
     grid-column-gap: 40px;
@@ -113,17 +110,6 @@
   .navbar .logo .hamburger {
     margin-bottom: 0;
     height: 6px;
-  }
-  .footer-top-subscription .subscription-input {
-    display: grid;
-  }
-  .footer-top-subscription .subscription-input input {
-    max-width: 250px;
-  }
-  .footer-top-subscription .subscription-input a {
-    height: 40px;
-    padding: 10px 0 0 24px;
-    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 320px) {

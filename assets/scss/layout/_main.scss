@@ -147,3 +147,430 @@
     }
   }
 }
+
+//core-feature
+.core-feature-section {
+  background: #f5f7fd;
+  padding: 90px 0;
+}
+.core-feature {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  background: #283742;
+  border-radius: 10px;
+  margin: 0 212px;
+  padding: 90px 108px;
+
+  .settings {
+    .settings-top {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #f9f9f9;
+      opacity: 0.75;
+    }
+    h1 {
+      font-family: SpaceGrotesk;
+      font-size: 40px;
+      color: #ffffff;
+      margin: 12px 0 28px 0;
+    }
+    .reduc {
+      font-size: 18px;
+      color: #fc2121;
+    }
+    .leads {
+      display: flex;
+      margin-top: 30px;
+      color: #ffffff;
+      h3 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 16.8px;
+      }
+
+      .leads-right {
+        margin-left: 40px;
+      }
+    }
+  }
+  .feature-header {
+    font-family: SpaceGrotesk;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+  .feature-para {
+    font-size: 16px;
+    color: #fc2121;
+    opacity: 0.75;
+    margin-top: 10px;
+  }
+  .expenses-bottom {
+    margin-top: 105px;
+  }
+  .savings-bottom {
+    margin-top: 83px;
+  }
+  .investments-bottom {
+    margin-top: 83px;
+  }
+  .savings,
+  .investments {
+    margin-left: 40px;
+  }
+  .feature-img {
+    img {
+      height: 32px;
+    }
+  }
+}
+.plan {
+  background: #f5f7fd;
+  .plan-top {
+    text-align: center;
+    p {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #283742;
+      opacity: 0.75;
+    }
+    h1 {
+      font-family: SpaceGrotesk;
+      font-weight: bold;
+      font-size: 40px;
+      color: #283742;
+      margin-top: 15px;
+    }
+  }
+  .plan-mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 48px;
+    .plan-mid-one {
+      background: #ffffff;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px;
+      .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px;
+        color: #283742;
+      }
+      .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        color: #283742;
+        margin-top: 20px;
+      }
+      .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center;
+        color: #232226;
+      }
+      .plan-description {
+        line-height: 26px;
+        color: #283742;
+        margin-top: 15px;
+      }
+      .plan-list {
+        color: #283742;
+      }
+      .plan-list2 {
+        color: #283742;
+        opacity: 0.75;
+        margin-top: 35px;
+      }
+      .plan-list3 {
+        color: #6a696c;
+      }
+      .plan-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+      }
+    }
+
+    .plan-mid-two {
+      background: #199bfc;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px;
+      color: #fff;
+      .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px;
+      }
+      .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        margin-top: 20px;
+      }
+      .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .plan-description {
+        line-height: 26px;
+        margin-top: 15px;
+      }
+      .plan-list2 {
+        opacity: 0.75;
+        margin-top: 35px;
+      }
+      .plan-btn2 {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #fff;
+        color: #000;
+      }
+    }
+
+    .plan-mid-three {
+      background: #003cd3;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px;
+      color: #ffffff;
+      .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px;
+      }
+      .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        margin-top: 20px;
+      }
+      .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .plan-description {
+        line-height: 26px;
+        margin-top: 15px;
+      }
+      .plan-list2 {
+        opacity: 0.75;
+        margin-top: 35px;
+      }
+      .plan-btn3 {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+  .plan-bottom {
+    padding: 70px 0 86px 0;
+    text-align: center;
+    p {
+      color: #283742;
+    }
+    h4 {
+      font-family: SpaceGrotesk;
+      font-weight: bold;
+      font-size: 26px;
+      color: #283742;
+      margin-top: 25px;
+    }
+  }
+  .auto-renewal {
+    position: absolute;
+    margin-top: 50px;
+    color: #283742;
+    opacity: 0.75;
+  }
+}
+
+//recent news
+.recent-news {
+  height: 567px;
+  padding: 0 212px 90px 212px;
+  margin-top: 90px;
+
+  .news-left-para {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #283742;
+    opacity: 0.75;
+  }
+  .news-left-headings {
+    font-family: SpaceGrotesk;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fc2121;
+    margin-top: 15px;
+  }
+  .news-left {
+    padding-top: 0 !important;
+    background-color: #fff !important;
+    .news-btn {
+      float: left !important;
+      margin-top: 28px;
+    }
+  }
+
+  .recent-news-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 42px;
+    grid-gap: 40px;
+    .recent-news-bottom-card {
+      background-color: #ffffff;
+      width: 392px;
+      height: 360px;
+
+      .recent-news-bottom-card-in {
+        padding: 40px 40px 38px 40px;
+        background: #f9f9f9;
+
+        .writter {
+          display: flex;
+          .writter-img {
+            img {
+              width: 46px;
+              height: 46px;
+              border-radius: 50%;
+            }
+          }
+          .writter-name {
+            margin-left: 15px;
+            p {
+              font-size: 15px;
+              line-height: 18px;
+              display: flex;
+              align-items: center;
+              color: #232226;
+              b {
+                margin-left: 4px;
+              }
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        .news {
+          p {
+            font-size: 15px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #232226;
+            margin-top: 40px;
+          }
+          h4 {
+            font-family: SpaceGrotesk;
+            font-size: 26px;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            color: #17161a;
+            margin-top: 10px;
+          }
+          span {
+            color: blue;
+            margin-right: 3px;
+          }
+        }
+      }
+
+      .read-btn {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-top: 37px;
+
+        a {
+          padding: 22px 22px 22px 0;
+          text-decoration: none;
+          font-family: SpaceGrotesk;
+          font-size: 16.8px;
+          line-height: 22px;
+          display: flex;
+          align-items: center;
+          text-align: right;
+          color: #17161a;
+          font-weight: 600;
+
+          img {
+            margin: 0 0 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.customer-reviews {
+  text-align: center;
+  background: #f5f7fd;
+  padding: 90px 530px;
+  .reviews-top {
+    text-transform: uppercase;
+    color: #283742;
+    opacity: 0.75;
+  }
+  .reviews-header {
+    font-family: SpaceGrotesk;
+    font-size: 40px;
+    color: #283742;
+    margin-top: 15px;
+  }
+  .reviews-cata {
+    display: flex;
+    margin-top: 50px;
+    p {
+      margin-left: 30px;
+    }
+    .reviews-cata-one {
+      margin-left: 0 !important;
+    }
+  }
+  .customer-img {
+    margin-top: 45px;
+  }
+  .customer-support {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+    span {
+      color: #283742;
+      font-weight: normal;
+    }
+  }
+  .customer-name {
+    font-family: SpaceGrotesk;
+    color: #283742;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .customer-desig {
+    color: #283742;
+    opacity: 0.75;
+  }
+}

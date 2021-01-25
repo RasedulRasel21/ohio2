@@ -250,6 +250,334 @@ a {
       color: #000;
       text-transform: none; }
 
+.core-feature-section {
+  background: #f5f7fd;
+  padding: 90px 0; }
+
+.core-feature {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  background: #283742;
+  border-radius: 10px;
+  margin: 0 212px;
+  padding: 90px 108px; }
+  .core-feature .settings .settings-top {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    opacity: 0.75; }
+  .core-feature .settings h1 {
+    font-family: SpaceGrotesk;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 12px 0 28px 0; }
+  .core-feature .settings .reduc {
+    font-size: 18px;
+    color: #fc2121; }
+  .core-feature .settings .leads {
+    display: flex;
+    margin-top: 30px;
+    color: #ffffff; }
+    .core-feature .settings .leads h3 {
+      font-size: 40px; }
+    .core-feature .settings .leads p {
+      font-size: 16.8px; }
+    .core-feature .settings .leads .leads-right {
+      margin-left: 40px; }
+  .core-feature .feature-header {
+    font-family: SpaceGrotesk;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px; }
+  .core-feature .feature-para {
+    font-size: 16px;
+    color: #fc2121;
+    opacity: 0.75;
+    margin-top: 10px; }
+  .core-feature .expenses-bottom {
+    margin-top: 105px; }
+  .core-feature .savings-bottom {
+    margin-top: 83px; }
+  .core-feature .investments-bottom {
+    margin-top: 83px; }
+  .core-feature .savings,
+  .core-feature .investments {
+    margin-left: 40px; }
+  .core-feature .feature-img img {
+    height: 32px; }
+
+.plan {
+  background: #f5f7fd; }
+  .plan .plan-top {
+    text-align: center; }
+    .plan .plan-top p {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #283742;
+      opacity: 0.75; }
+    .plan .plan-top h1 {
+      font-family: SpaceGrotesk;
+      font-weight: bold;
+      font-size: 40px;
+      color: #283742;
+      margin-top: 15px; }
+  .plan .plan-mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 48px; }
+    .plan .plan-mid .plan-mid-one {
+      background: #ffffff;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px; }
+      .plan .plan-mid .plan-mid-one .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px;
+        color: #283742; }
+      .plan .plan-mid .plan-mid-one .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        color: #283742;
+        margin-top: 20px; }
+      .plan .plan-mid .plan-mid-one .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center;
+        color: #232226; }
+      .plan .plan-mid .plan-mid-one .plan-description {
+        line-height: 26px;
+        color: #283742;
+        margin-top: 15px; }
+      .plan .plan-mid .plan-mid-one .plan-list {
+        color: #283742; }
+      .plan .plan-mid .plan-mid-one .plan-list2 {
+        color: #283742;
+        opacity: 0.75;
+        margin-top: 35px; }
+      .plan .plan-mid .plan-mid-one .plan-list3 {
+        color: #6a696c; }
+      .plan .plan-mid .plan-mid-one .plan-btn {
+        margin-top: 20px;
+        padding: 10px 20px; }
+    .plan .plan-mid .plan-mid-two {
+      background: #199bfc;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px;
+      color: #fff; }
+      .plan .plan-mid .plan-mid-two .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px; }
+      .plan .plan-mid .plan-mid-two .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        margin-top: 20px; }
+      .plan .plan-mid .plan-mid-two .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center; }
+      .plan .plan-mid .plan-mid-two .plan-description {
+        line-height: 26px;
+        margin-top: 15px; }
+      .plan .plan-mid .plan-mid-two .plan-list2 {
+        opacity: 0.75;
+        margin-top: 35px; }
+      .plan .plan-mid .plan-mid-two .plan-btn2 {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #fff;
+        color: #000; }
+    .plan .plan-mid .plan-mid-three {
+      background: #003cd3;
+      box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.02);
+      border-radius: 10px;
+      padding: 40px;
+      line-height: 40px;
+      color: #ffffff; }
+      .plan .plan-mid .plan-mid-three .plan-name {
+        font-family: SpaceGrotesk;
+        font-weight: bold;
+        font-size: 16.8px; }
+      .plan .plan-mid .plan-mid-three .plan-budget {
+        font-family: SpaceGrotesk;
+        font-size: 72px;
+        margin-top: 20px; }
+      .plan .plan-mid .plan-mid-three .monthly {
+        font-size: 13px;
+        background: rgba(17, 17, 17, 0.08);
+        border-radius: 3px;
+        width: 69px;
+        height: 36px;
+        margin-top: 20px;
+        text-align: center; }
+      .plan .plan-mid .plan-mid-three .plan-description {
+        line-height: 26px;
+        margin-top: 15px; }
+      .plan .plan-mid .plan-mid-three .plan-list2 {
+        opacity: 0.75;
+        margin-top: 35px; }
+      .plan .plan-mid .plan-mid-three .plan-btn3 {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #fff;
+        color: #000; }
+  .plan .plan-bottom {
+    padding: 70px 0 86px 0;
+    text-align: center; }
+    .plan .plan-bottom p {
+      color: #283742; }
+    .plan .plan-bottom h4 {
+      font-family: SpaceGrotesk;
+      font-weight: bold;
+      font-size: 26px;
+      color: #283742;
+      margin-top: 25px; }
+  .plan .auto-renewal {
+    position: absolute;
+    margin-top: 50px;
+    color: #283742;
+    opacity: 0.75; }
+
+.recent-news {
+  height: 567px;
+  padding: 0 212px 90px 212px;
+  margin-top: 90px; }
+  .recent-news .news-left-para {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #283742;
+    opacity: 0.75; }
+  .recent-news .news-left-headings {
+    font-family: SpaceGrotesk;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fc2121;
+    margin-top: 15px; }
+  .recent-news .news-left {
+    padding-top: 0 !important;
+    background-color: #fff !important; }
+    .recent-news .news-left .news-btn {
+      float: left !important;
+      margin-top: 28px; }
+  .recent-news .recent-news-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 42px;
+    grid-gap: 40px; }
+    .recent-news .recent-news-bottom .recent-news-bottom-card {
+      background-color: #ffffff;
+      width: 392px;
+      height: 360px; }
+      .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in {
+        padding: 40px 40px 38px 40px;
+        background: #f9f9f9; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter {
+          display: flex; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-img img {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name {
+            margin-left: 15px; }
+            .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p {
+              font-size: 15px;
+              line-height: 18px;
+              display: flex;
+              align-items: center;
+              color: #232226; }
+              .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p b {
+                margin-left: 4px; }
+              .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p span {
+                font-size: 14px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news p {
+          font-size: 15px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #232226;
+          margin-top: 40px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news h4 {
+          font-family: SpaceGrotesk;
+          font-size: 26px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          color: #17161a;
+          margin-top: 10px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news span {
+          color: blue;
+          margin-right: 3px; }
+      .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-top: 37px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn a {
+          padding: 22px 22px 22px 0;
+          text-decoration: none;
+          font-family: SpaceGrotesk;
+          font-size: 16.8px;
+          line-height: 22px;
+          display: flex;
+          align-items: center;
+          text-align: right;
+          color: #17161a;
+          font-weight: 600; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn a img {
+            margin: 0 0 0 10px; }
+
+.customer-reviews {
+  text-align: center;
+  background: #f5f7fd;
+  padding: 90px 530px; }
+  .customer-reviews .reviews-top {
+    text-transform: uppercase;
+    color: #283742;
+    opacity: 0.75; }
+  .customer-reviews .reviews-header {
+    font-family: SpaceGrotesk;
+    font-size: 40px;
+    color: #283742;
+    margin-top: 15px; }
+  .customer-reviews .reviews-cata {
+    display: flex;
+    margin-top: 50px; }
+    .customer-reviews .reviews-cata p {
+      margin-left: 30px; }
+    .customer-reviews .reviews-cata .reviews-cata-one {
+      margin-left: 0 !important; }
+  .customer-reviews .customer-img {
+    margin-top: 45px; }
+  .customer-reviews .customer-support {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px; }
+    .customer-reviews .customer-support span {
+      color: #283742;
+      font-weight: normal; }
+  .customer-reviews .customer-name {
+    font-family: SpaceGrotesk;
+    color: #283742;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px; }
+  .customer-reviews .customer-desig {
+    color: #283742;
+    opacity: 0.75; }
+
 .footer {
   height: 100%;
   background: #17161a; }
@@ -369,31 +697,22 @@ a {
   color: #ffffff;
   opacity: 0.4; }
 .footer-top-subscription .subscription-input {
-  display: flex;
-  margin-top: 25px;
-  font-family: Basier Circle;
-  font-size: 16px; }
+  margin-top: 25px; }
   .footer-top-subscription .subscription-input input {
     height: 50px;
-    max-width: 250px;
+    width: 280px;
     align-items: center;
     letter-spacing: -0.01em;
     color: #ffffff;
     opacity: 0.5;
     border-radius: 2px;
     padding-left: 15px;
-    margin-right: -1px; }
+    position: absolute; }
   .footer-top-subscription .subscription-input a {
-    height: 48px;
-    width: 126px;
-    align-items: center;
-    letter-spacing: -0.01em;
     color: #fff;
-    border-radius: 2px;
-    padding: 15px 0 0 30px;
-    text-decoration: none;
-    background-color: #8b8a8c;
-    margin-top: 2px; }
+    position: relative;
+    float: right;
+    padding: 15px 30px 0 0; }
 
 @media only screen and (max-width: 991px) {
   .navbar .nav-items ul {
@@ -405,9 +724,6 @@ a {
   .footer .footer-top {
     padding: 5%;
     grid-template-columns: 450px 450px; }
-
-  .footer-top-subscription .subscription-input a {
-    height: 47px; }
 
   .footer .footer-bottom {
     padding: 5%;
@@ -495,18 +811,7 @@ a {
 
   .navbar .logo .hamburger {
     margin-bottom: 0;
-    height: 6px; }
-
-  .footer-top-subscription .subscription-input {
-    display: grid; }
-
-  .footer-top-subscription .subscription-input input {
-    max-width: 250px; }
-
-  .footer-top-subscription .subscription-input a {
-    height: 40px;
-    padding: 10px 0 0 24px;
-    margin-top: 10px; } }
+    height: 6px; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
