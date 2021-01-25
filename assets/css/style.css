@@ -578,9 +578,43 @@ a {
     color: #283742;
     opacity: 0.75; }
 
+.customers .customers-top {
+  display: grid;
+  padding: 105px 268px 105px 212px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .customers .customers-top img {
+    max-width: 120px;
+    padding: 20px; }
+
+.create-account {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #003cd3;
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0 212px;
+  padding: 90px 90px 0 90px; }
+  .create-account .create-account-left .acc-left-top {
+    text-transform: uppercase;
+    color: #f9f9f9;
+    opacity: 0.75; }
+  .create-account .create-account-left .acc-header {
+    font-family: SpaceGrotesk;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 20px 0; }
+  .create-account .create-account-left .acc-descrip {
+    font-size: 18px;
+    line-height: 28px;
+    color: #f9f9f9; }
+  .create-account .create-account-left .acc-btn {
+    background-color: #000;
+    padding: 20px 30px;
+    margin-top: 25px; }
+
 .footer {
   height: 100%;
-  background: #17161a; }
+  background: #ffffff; }
   .footer .footer-top {
     padding: 90px 212px 65px 212px;
     display: grid;
@@ -594,7 +628,6 @@ a {
       line-height: 26px;
       display: flex;
       align-items: center;
-      color: #ffffff;
       opacity: 0.4;
       margin: 33px 0 46px 0; }
     .footer .footer-top .footer-top-social .footer-top-social-icons {
@@ -625,7 +658,6 @@ a {
       font-size: 15px;
       line-height: 24px;
       letter-spacing: -0.01em;
-      color: #f9f9f9;
       opacity: 0.8; }
   .footer .footer-divider img {
     width: 1275px;
@@ -664,13 +696,11 @@ a {
   line-height: 26px;
   display: flex;
   align-items: center;
-  color: #ffffff;
   opacity: 0.4; }
 .footer-top-address p {
   font-size: 16.4px;
   line-height: 26px;
   letter-spacing: -0.01em;
-  color: #ffffff;
   opacity: 0.8;
   margin: 25px 0 40px 0; }
 
@@ -679,13 +709,11 @@ a {
   line-height: 26px;
   display: flex;
   align-items: center;
-  color: #ffffff;
   opacity: 0.4; }
 .footer-top-Work-inquiries p {
   font-size: 16.4px;
   line-height: 26px;
   letter-spacing: -0.01em;
-  color: #ffffff;
   opacity: 0.8;
   margin: 25px 0 40px 0; }
 
@@ -694,7 +722,6 @@ a {
   line-height: 26px;
   display: flex;
   align-items: center;
-  color: #ffffff;
   opacity: 0.4; }
 .footer-top-subscription .subscription-input {
   margin-top: 25px; }
@@ -703,16 +730,16 @@ a {
     width: 280px;
     align-items: center;
     letter-spacing: -0.01em;
-    color: #ffffff;
     opacity: 0.5;
     border-radius: 2px;
     padding-left: 15px;
-    position: absolute; }
+    position: absolute;
+    background: #f5f7fd; }
   .footer-top-subscription .subscription-input a {
-    color: #fff;
     position: relative;
     float: right;
-    padding: 15px 30px 0 0; }
+    padding: 15px 30px 0 0;
+    color: #000; }
 
 @media only screen and (max-width: 991px) {
   .navbar .nav-items ul {
