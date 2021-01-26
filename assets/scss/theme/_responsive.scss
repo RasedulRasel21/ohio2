@@ -40,9 +40,8 @@
   .header-body .header-body-left h1 {
     font-size: 40px;
     margin-top: 16px;
-    line-height: 50px;
+    line-height: 30px;
   }
-
   .header-body .header-body-left h6 {
     margin-top: 30px;
   }
@@ -67,18 +66,180 @@
 
   .processes {
     grid-template-columns: 1fr;
+    margin-top: 0;
+    padding: 0 !important;
+  }
+  .sales-growth {
+    margin-top: 0;
+  }
+  .sales-growth .sales-growth-in {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+  .sales-growth .sales-growth-in .sales-growth-left .sales-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    svg {
+      width: 15px;
+      height: 8px;
+    }
+  }
+  .sales-growth-right {
+    margin-top: 30px;
+  }
+  .marketing {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+  .marketing .marketing-right .estimate-bar .estimate-bar-icon .rect-black {
+    max-width: 120px;
+  }
+  .marketing .marketing-right .estimate-bar .estimate-bar-icon .rect-v {
+    max-width: 40px;
+  }
+  .core-feature-section {
+    padding: 0;
+  }
+  .core-feature {
+    grid-template-columns: 1fr;
+    padding: 40px;
+    margin: 40px 0;
+  }
+  .expenses-top,
+  .expenses-bottom,
+  .savings-top,
+  .savings-bottom,
+  .investments-top,
+  .investments-bottom {
+    margin-top: 20px !important;
+  }
+  .core-feature .savings,
+  .core-feature .investments {
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 26px !important;
+  }
+  h3,
+  h4 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .plan {
+    padding: 0 !important;
+  }
+  .plan .plan-top {
+    padding: 30px;
+  }
+  .plan .plan-mid {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+  .plan .auto-renewal {
+    position: relative;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+  .plan .plan-mid .plan-mid-three .plan-budget {
+    font-size: 50px;
+  }
+  .plan .plan-mid .plan-mid-two .plan-budget {
+    font-size: 50px;
   }
 
+  .plan .plan-mid .plan-mid-one .plan-budget {
+    font-size: 50px;
+  }
+
+  .plan .plan-mid .plan-mid-one .plan-btn {
+    padding: 0 10px;
+    font-size: 10px;
+    svg {
+      width: 15px;
+      height: 8px;
+    }
+  }
+  .plan .plan-mid .plan-mid-two .plan-btn2 {
+    padding: 0 10px;
+    font-size: 10px;
+    svg {
+      width: 15px;
+      height: 8px;
+    }
+  }
+  .plan .plan-mid .plan-mid-three .plan-btn3 {
+    padding: 0 10px;
+    font-size: 10px;
+    svg {
+      width: 15px;
+      height: 8px;
+    }
+  }
+  .plan .plan-bottom {
+    padding: 40px;
+  }
+
+  .recent-news {
+    padding: 0;
+    margin-top: 0;
+    height: 100%;
+  }
+  .recent-news .recent-news-bottom .recent-news-bottom-card {
+    height: 100%;
+    max-width: 392px;
+  }
+  .recent-news .recent-news-bottom {
+    grid-template-columns: 1fr;
+    margin-top: 42px;
+    grid-gap: 10px;
+  }
+
+  .customer-reviews {
+    padding: 40px;
+  }
+  .customer-reviews .reviews-cata {
+    flex-direction: column;
+  }
+  .customer-reviews .reviews-cata p {
+    margin-left: 0;
+  }
+
+  .customers .customers-top {
+    padding: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  }
+  .create-account {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 40px;
+  }
+  .create-account .create-account-left .acc-descrip {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .create-account .create-account-left .acc-btn {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+    svg {
+      width: 15px;
+      height: 8px;
+    }
+  }
   .footer .footer-top {
     padding: 5%;
   }
   .footer .footer-bottom {
-    padding: 5%;
+    padding: 40px;
     grid-template-columns: 1fr;
     grid-column-gap: 0;
   }
   .footer .footer-top {
-    padding: 5%;
+    padding: 40px;
+    grid-template-columns: 1fr;
   }
   .footer {
     height: 100%;
@@ -86,11 +247,10 @@
   .footer-bottom-right {
     padding: 5% 0;
   }
-  .progress-img {
-    grid-template-columns: 1fr;
+  .footer .footer-top .footer-top-social p {
+    margin: 5px 0 0 0;
   }
-  .footer .footer-top {
-    padding: 5%;
+  .progress-img {
     grid-template-columns: 1fr;
   }
 
@@ -100,6 +260,16 @@
   .footer .footer-divider img {
     width: 100%;
     margin-left: 0;
+  }
+  .footer-top-subscription .subscription-input {
+    max-width: 250px;
+  }
+  .footer-top-subscription .subscription-input input {
+    font-size: 10px;
+  }
+  .footer-top-subscription .subscription-input a {
+    padding: 18px 0px 0 0;
+    font-size: 10px;
   }
 }
 

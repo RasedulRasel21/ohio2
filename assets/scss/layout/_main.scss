@@ -383,10 +383,11 @@
     }
   }
   .plan-bottom {
-    padding: 70px 0 86px 0;
+    padding: 100px 0 86px 0;
     text-align: center;
     p {
       color: #283742;
+      line-height: 26px;
     }
     h4 {
       font-family: SpaceGrotesk;
@@ -439,7 +440,7 @@
     grid-gap: 40px;
     .recent-news-bottom-card {
       background-color: #ffffff;
-      width: 392px;
+      max-width: 392px;
       height: 360px;
 
       .recent-news-bottom-card-in {
