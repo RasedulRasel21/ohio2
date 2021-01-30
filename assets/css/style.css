@@ -751,6 +751,9 @@ a {
   .main {
     padding: 0 100px; }
 
+  .navbar .nav-items ul {
+    display: none; }
+
   .header-body .header-body-left h1 {
     font-size: 58px;
     line-height: 70px; }
@@ -797,9 +800,6 @@ a {
   .footer .footer-divider img {
     display: none; } }
 @media only screen and (max-width: 991px) {
-  .navbar .nav-items ul {
-    display: none; }
-
   .main {
     padding: 0 100px; }
 
@@ -895,6 +895,9 @@ a {
     position: relative;
     margin-top: 20px;
     line-height: 22px; }
+
+  .plan .auto-renewal-font {
+    color: #ffffff; }
 
   .plan .plan-mid .plan-mid-three .plan-budget {
     font-size: 50px; }

@@ -4,6 +4,9 @@
   .main {
     padding: 0 100px;
   }
+  .navbar .nav-items ul {
+    display: none;
+  }
   .header-body .header-body-left h1 {
     font-size: 58px;
     line-height: 70px;
@@ -52,9 +55,6 @@
   }
 }
 @media only screen and (max-width: 991px) {
-  .navbar .nav-items ul {
-    display: none;
-  }
   .main {
     padding: 0 100px;
   }
@@ -154,6 +154,9 @@
     position: relative;
     margin-top: 20px;
     line-height: 22px;
+  }
+  .plan .auto-renewal-font {
+    color: #ffffff;
   }
   .plan .plan-mid .plan-mid-three .plan-budget {
     font-size: 50px;
