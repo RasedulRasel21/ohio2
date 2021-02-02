@@ -621,3 +621,24 @@
     }
   }
 }
+
+.vertical-line {
+  display: flex;
+  position: fixed;
+  transform: rotate(-90deg);
+  left: 0;
+  top: 50%;
+  .theme {
+    padding: 0 0px 120px 120px;
+    span {
+      border-radius: 70%;
+      background: aqua;
+    }
+  }
+}
+.minus-svg {
+  margin-bottom: 5px;
+}
+.lead-svg {
+  margin: 0 0 -4px 10px;
+}

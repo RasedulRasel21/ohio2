@@ -613,6 +613,24 @@ a {
     padding: 20px 30px;
     margin-top: 25px; }
 
+.vertical-line {
+  display: flex;
+  position: fixed;
+  transform: rotate(-90deg);
+  left: 0;
+  top: 50%; }
+  .vertical-line .theme {
+    padding: 0 0px 120px 120px; }
+    .vertical-line .theme span {
+      border-radius: 70%;
+      background: aqua; }
+
+.minus-svg {
+  margin-bottom: 5px; }
+
+.lead-svg {
+  margin: 0 0 -4px 10px; }
+
 .footer {
   height: 100%;
   background: #ffffff; }
@@ -800,6 +818,9 @@ a {
   .footer .footer-divider img {
     display: none; } }
 @media only screen and (max-width: 991px) {
+  .vertical-line {
+    display: none; }
+
   .main {
     padding: 0 100px; }
 
@@ -878,7 +899,7 @@ a {
   .savings-bottom,
   .investments-top,
   .investments-bottom {
-    margin-top: 20px !important; }
+    margin-top: 70px !important; }
 
   .core-feature .savings,
   .core-feature .investments {
@@ -1048,7 +1069,7 @@ a {
     padding: 40px; }
 
   .header-body .header-body-left h1 {
-    line-height: 30px; }
+    line-height: 36px; }
 
   .sales-growth .sales-growth-in {
     grid-template-columns: 1fr; }
@@ -1068,7 +1089,7 @@ a {
     width: 86px; }
 
   h1 {
-    font-size: 26px !important; }
+    font-size: 36px !important; }
 
   h3,
   h4 {
@@ -1078,7 +1099,16 @@ a {
     font-size: 14px !important; }
 
   .processes {
-    padding: 0 !important; } }
+    padding: 0 !important; }
+
+  .leads h3 {
+    font-size: 40px !important; }
+
+  .customer-reviews {
+    text-align: left; }
+
+  .customer-reviews .customer-name {
+    text-align: left; } }
 @media only screen and (max-width: 400px) {
   .navbar .logo .logoicon {
     margin-left: 16px; }

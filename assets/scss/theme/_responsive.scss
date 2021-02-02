@@ -55,6 +55,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .vertical-line {
+    display: none;
+  }
   .main {
     padding: 0 100px;
   }
@@ -136,7 +139,7 @@
   .savings-bottom,
   .investments-top,
   .investments-bottom {
-    margin-top: 20px !important;
+    margin-top: 70px !important;
   }
   .core-feature .savings,
   .core-feature .investments {
@@ -296,7 +299,6 @@
   .main {
     padding: 0 40px;
   }
-
   .footer .footer-bottom {
     padding: 40px;
   }
@@ -319,7 +321,7 @@
     padding: 40px;
   }
   .header-body .header-body-left h1 {
-    line-height: 30px;
+    line-height: 36px;
   }
   .sales-growth .sales-growth-in {
     grid-template-columns: 1fr;
@@ -340,7 +342,7 @@
   }
 
   h1 {
-    font-size: 26px !important;
+    font-size: 36px !important;
   }
   h3,
   h4 {
@@ -351,6 +353,16 @@
   }
   .processes {
     padding: 0 !important;
+  }
+  .leads h3 {
+    font-size: 40px !important;
+  }
+
+  .customer-reviews {
+    text-align: left;
+  }
+  .customer-reviews .customer-name {
+    text-align: left;
   }
 }
 
