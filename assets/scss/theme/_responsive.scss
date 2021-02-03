@@ -4,8 +4,33 @@
   .main {
     padding: 0 100px;
   }
-  .navbar .nav-items ul {
+  .navbar .nav-items {
     display: none;
+  }
+  .navbar .show {
+    display: block;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .navbar .show ul {
+    display: block;
+    top: 100px;
+  }
+  .navbar .show ul li {
+    padding: 20px;
+  }
+  .navbar .show ul li a {
+    color: #fff;
+  }
+  .register-btn {
+    position: absolute;
+    right: 40px;
   }
   .header-body .header-body-left h1 {
     font-size: 58px;

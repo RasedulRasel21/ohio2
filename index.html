@@ -10,14 +10,19 @@
     <header>
       <div class="navbar">
         <div class="logo">
-          <img src="./assets/images/humbarger.png" class="hamburger" alt="" />
+          <img
+            src="./assets/images/humbarger.png"
+            class="hamburger"
+            onclick="myfunction()"
+            alt=""
+          />
           <img
             src="./assets/images/ohio service..svg"
             class="logoicon"
             alt=""
           />
         </div>
-        <div class="nav-items">
+        <div class="nav-items" id="nav">
           <ul>
             <li><a href=""> Our Studio</a></li>
             <li><a href=""> Showcases</a></li>
@@ -28,7 +33,7 @@
           </ul>
         </div>
         <div class="register">
-          <a href="" class="btn">Register</a>
+          <a href="" class="btn register-btn">Register</a>
         </div>
       </div>
       <div class="header-body main">
@@ -620,5 +625,11 @@
       </div>
     </div>
     <!-- footer end -->
+    <script>
+      function myfunction() {
+        var navbar = document.getElementById("nav");
+        navbar.classList.toggle("show");
+      }
+    </script>
   </body>
 </html>
