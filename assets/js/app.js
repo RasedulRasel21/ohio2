@@ -1,5 +1,6 @@
-    // $(document).ready(function(){
-    //     $('.humburger').click(function(){
-    //         $('.navbar').toogleClass('nav-show');
-    //     });
-    // )};
+jQuery(document).ready(function ($) {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1000,
+  });
+});

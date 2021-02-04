@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ohio-2</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
   </head>
   <body>
     <header>
@@ -63,6 +65,7 @@
       <p class="scroll">scroll to top</p>
       <p class="theme">Light <span>Dark</span></p>
     </div>
+
     <div class="processes main">
       <div class="processes-left">
         <img src="./assets/images/p1.png" alt="" />
@@ -221,7 +224,8 @@
           <div class="leads">
             <div class="leads-left">
               <h3>
-                35<svg
+                <span class="counter">35</span
+                ><svg
                   width="24"
                   height="32"
                   viewBox="0 0 24 32"
@@ -242,7 +246,8 @@
             </div>
             <div class="leads-right">
               <h3>
-                75<svg
+                <span class="counter">75</span
+                ><svg
                   width="24"
                   height="32"
                   viewBox="0 0 24 32"
@@ -631,5 +636,7 @@
         navbar.classList.toggle("show");
       }
     </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
   </body>
 </html>
