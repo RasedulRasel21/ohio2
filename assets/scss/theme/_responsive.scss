@@ -17,7 +17,17 @@
     top: 100px;
     text-align: center;
     padding-top: 50px;
+    animation: resnavbar 0.5s ease-in-out;
   }
+  @keyframes resnavbar {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+
   .navbar .show ul {
     display: block;
     top: 100px;
@@ -370,6 +380,7 @@
   .btn {
     height: 34px;
     width: 86px;
+    padding: 12px 24px;
   }
 
   h1 {
