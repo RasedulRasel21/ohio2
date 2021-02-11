@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ohio-2</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="./assets/js/app.js"></script>
   </head>
@@ -67,7 +68,12 @@
     </div>
 
     <div class="processes main">
-      <div class="processes-left">
+      <div
+        class="processes-left"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <img src="./assets/images/p1.png" alt="" />
         <h3>Engage your customers dramatically.</h3>
         <p>
@@ -105,7 +111,12 @@
           Smart Automations
         </p>
       </div>
-      <div class="processes-right">
+      <div
+        class="processes-right"
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <img src="./assets/images/p3.png" alt="" />
         <h3>Estimate costs and increase productivity.</h3>
         <p>
@@ -127,7 +138,12 @@
     </div>
     <div class="sales-growth">
       <div class="sales-growth-in main">
-        <div class="sales-growth-left">
+        <div
+          class="sales-growth-left"
+          data-aos="fade-down"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <p>Solve Problems</p>
           <h1>Programs app and monetization.</h1>
           <h6>
@@ -179,7 +195,13 @@
           ></a>
         </div>
         <div class="sales-growth-right">
-          <img src="./assets/images/Frame 2.png" alt="" />
+          <img
+            src="./assets/images/Frame 2.png"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -210,7 +232,12 @@
       </div>
     </div>
     <div class="core-feature-section">
-      <div class="core-feature main">
+      <div
+        class="core-feature main"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div class="settings">
           <p class="settings-top">Settings</p>
           <h1>
@@ -319,7 +346,7 @@
         </h1>
       </div>
       <div class="plan-mid">
-        <div class="plan-mid-one">
+        <div class="plan-mid-one" data-aos="fade-right">
           <p class="plan-name">Personal</p>
           <h2 class="plan-budget">$3</h2>
           <p class="monthly">Monthly</p>
@@ -348,7 +375,7 @@
           </a>
           <p class="auto-renewal">* Billed as $25 yearly (auto-renewal)</p>
         </div>
-        <div class="plan-mid-two">
+        <div class="plan-mid-two" data-aos="zoom-in">
           <p class="plan-name">Personal</p>
           <h2 class="plan-budget">$5</h2>
           <p class="monthly">Monthly</p>
@@ -379,7 +406,7 @@
             * Billed as $39 yearly (auto-renewal)
           </p>
         </div>
-        <div class="plan-mid-three">
+        <div class="plan-mid-three" data-aos="fade-left">
           <p class="plan-name">Personal</p>
           <h2 class="plan-budget">$63</h2>
           <p class="monthly">Monthly</p>
@@ -421,7 +448,12 @@
     </div>
 
     <!-- recent news start -->
-    <div class="recent-news">
+    <div
+      class="recent-news"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1500"
+    >
       <div class="recent-news-bottom">
         <div class="recent-news-bottom-card">
           <div class="recent-news-bottom-card-in news-left">
@@ -527,7 +559,11 @@
     <!-- customers section end -->
 
     <div class="create-account">
-      <div class="create-account-left">
+      <div
+        class="create-account-left"
+        data-aos="fade-right"
+        data-aos-duration="2500"
+      >
         <p class="acc-left-top">Create an account</p>
         <h3 class="acc-header">
           Get started with <br />
@@ -555,7 +591,12 @@
         </a>
       </div>
       <div class="create-account-right">
-        <img src="./assets/images/Frame 3.png" alt="" />
+        <img
+          src="./assets/images/Frame 3.png"
+          alt=""
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        />
       </div>
     </div>
     <!-- footer start -->
@@ -638,5 +679,9 @@
     </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
